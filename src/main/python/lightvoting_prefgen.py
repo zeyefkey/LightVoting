@@ -13,7 +13,7 @@ def uniform_distribution(config):
         "type": "uniform",
         "category_preferences": numpy.round(
             PRNG.rand(len(config.get("categories"))), config.get("precission")
-        )
+        ).tolist()
     }
 
 
@@ -84,7 +84,7 @@ def write_runconfig(config, args):
                                     config=config
                                 ) if args.cluster else uniform_distribution(config=config),
                                 config=config
-                                )
+                            )
                         for i_agent in range(config.get("agents"))
                     }
                     for i_run in range(config.get("runs"))
@@ -93,6 +93,7 @@ def write_runconfig(config, args):
             f_output,
             Dumper=yaml.CSafeDumper
         )
+
 
 def main():
     parser = argparse.ArgumentParser(prog="lightvoting_prefgen.py")
