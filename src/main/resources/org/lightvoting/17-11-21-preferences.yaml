@@ -1,7 +1,7 @@
-#categories: [historic site, museum, scenic lookout, shopping mall, zoo park]
-#pois: [Aritzia, Carnegie Hall, Central Park, Chelsea Market, Empire State Building
-#    86th Floor Observation Deck, Madison Square Park, Metropolitan Museum of Art,
-#  MoMA, St. Patrick's Cathedral, Top of the Rock Observation Deck]
+categories: [historic site, museum, scenic lookout, shopping mall, zoo park]
+pois: [Aritzia, Carnegie Hall, Central Park, Chelsea Market, Empire State Building
+    86th Floor Observation Deck, Madison Square Park, Metropolitan Museum of Art,
+  MoMA, St. Patrick's Cathedral, Top of the Rock Observation Deck]
 run:
   number_0:
     agent_0:
