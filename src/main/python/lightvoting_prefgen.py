@@ -1,9 +1,8 @@
 import argparse
-from types import MappingProxyType
-import yaml
 import numpy
+import yaml
 from numpy.random import RandomState
-
+from types import MappingProxyType
 
 PRNG = RandomState()
 
